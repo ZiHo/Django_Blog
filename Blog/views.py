@@ -12,4 +12,4 @@ def blog_list(request):
 def blog_detail(request, blog_pk):
     context={}
     context['blog'] = get_object_or_404(Blog, pk= blog_pk)
-    return render(request, 'blog_detail',context=context)
+    return render(request, 'blog_detail.html',context=context)
