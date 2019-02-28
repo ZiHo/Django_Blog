@@ -16,3 +16,4 @@ if __name__ == '__main__':
 
 # Learning Video Record:
 # No.8  time position - 12:20
+# No Learning on Feb 28
